@@ -15,7 +15,6 @@ public class WindowManager extends JFrame {
     public WindowManager(String gameName, int width, int height) {
     	frame = new JFrame(gameName);
     	gamePanel = new JPanel();
-    	gamePanel.setBackground(Color.BLUE);
         frame.setSize(width, height);
         frame.add(gamePanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
